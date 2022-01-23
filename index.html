@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A Table and Form</title>
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+   
+</head>
+<body class="container">
+
+ <br>
+ <div class="card">
+     <div class="card-body">
+         <div class="row">
+             <div class=" col-sm">
+                 <div class="form-group">
+                     <label for="ex-employee">Former Employee:</label>
+                     <input type="text" class="form-control" id="ex-employee">
+                 </div>
+             </div>
+             <div class=" col-sm">
+                <div class="form-group">
+                    <label for="occupation">Occupation:</label>
+                    <input type="text" class="form-control" id="occupation">
+               </div> 
+             </div> 
+             <div class=" col-sm">
+                <div class="form-group">
+                    <label for="quit-date">Quit Date:</label>
+                    <input type="date" class="form-control" id="quit-date">
+             </div>
+               </div> 
+               <div class=" col-sm">
+                <div class="form-group">
+                <label for="reason">Reason:</label>
+                <input type="type" class="form-control" id="reason">
+             </div>
+               </div>    
+         </div>
+         <br>
+         <div>
+             <button id="submit-button" class="btn btn-primary form-control">Submit</button>
+         </div>
+
+
+     </div>
+     </div>
+
+     <br>
+     <div>
+        <table id="tableData" class="table table-stripped">
+            <tr>
+                <th>Name</th>
+                <th>Occupation</th>
+                <th>Quit Date</th>
+                <th>Reason</th>
+                <th>Delete Record</th>
+            </tr>
+        </table>
+
+
+     </div>
+     
+     <script src="formtable.js"></script>
+
+     <script src="node_modules/jquery/dist/jquery.js"> </script>
+  <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+  
+    
+</body>
+</html>
